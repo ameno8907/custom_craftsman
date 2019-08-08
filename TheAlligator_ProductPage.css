@@ -1,0 +1,104 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	width: 100%;
+	height: 100%;
+	min-width: 1380px;
+}
+
+/*Header*/
+.header {
+	background-color: #252525;
+	color: white;
+	height: 80px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-image: url(wood-grain-2.png) 2.5% round;
+	border-style: solid;
+	border-bottom-width: 20px;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+.header #logo {
+	float: left;
+	margin-left: 40px;
+	width: 20%
+}
+.header #nav ul {
+	list-style: none;
+	height: 60px;
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+}
+.header #nav ul li {
+	display: inline-block;
+	height: 60px;
+	padding: 0 30px;
+	line-height: 60px;
+	transition: backgroud 1s;
+	
+}
+.header #nav ul li:hover {
+	background-color: #806143;
+	transition: backgroud 1s;
+}
+.header #nav ul li a {
+	color: white;
+}
+.header #nav ul li a:visited {
+	color: white;
+}
+/* End Header */
+
+/* Content - Left */
+.content {
+	float: left;
+	width: 70%;
+	text-align: center;
+	min-height: 800px;
+	display: inline-block;
+	overflow: scroll;
+}
+.content .name_image {
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+}
+table {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+/* End Content */
+
+/* Sidebar - Right */
+.sidebar {
+	text-align: center;
+	float: right;
+	width: 30%;
+	background-color: #1a3218;
+	min-height: 800px;
+	color: #cfc76e;
+}
+.fb-page {
+	width: 200;
+	height: 100;
+}
+/* End Sidebar*/
+
+/* Footer */
+.footer {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* End Footer */

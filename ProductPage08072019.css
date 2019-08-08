@@ -1,0 +1,162 @@
+/* ProductPage08072019.css */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	width: 100%;
+	height: 100%;
+	min-width: 1380px;
+}
+
+/*Header*/
+.header {
+	background-color: #252525;
+	color: white;
+	height: 80px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-image: url(wood-grain-2.png) 2.5% round;
+	border-style: solid;
+	border-bottom-width: 20px;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+.header #logo {
+	float: left;
+	margin-left: 40px;
+	width: 20%
+}
+.header #nav ul {
+	list-style: none;
+	height: 60px;
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+}
+.header #nav ul li {
+	display: inline-block;
+	height: 60px;
+	padding: 0 30px;
+	line-height: 60px;
+	transition: backgroud 1s;
+	
+}
+.header #nav ul li:hover {
+	background-color: #806143;
+	transition: backgroud 1s;
+}
+.header #nav ul li a {
+	color: white;
+}
+.header #nav ul li a:visited {
+	color: white;
+}
+/* End Header */
+
+/* Content */
+.content {
+	float: left;
+	width: 70%;
+	min-height: 800px;
+	display: inline-block;
+	
+}
+.content form { 
+	text-align: center;
+	border-bottom: black 3px double;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.content form .option {
+	display: inline-block;
+	padding-right: 10px;
+}
+.content .products_sec {
+	text-align: center;
+	display: inline-block;
+	overflow: auto;
+}
+.content .products_sec .row1{
+	display: inline-block;
+	text-align: center;
+	width: 70%;
+}
+.content #the_alligator {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+.content #the_yellow_bee {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+.content #the_chomper {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+.content .products_sec .row2{
+	display: inline-block;
+	text-align: center;
+	width: 70%;
+}
+.content #the_flexer {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+.content #the_everything {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+.content #silver_alligator {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 30px;
+}
+/*End Content*/
+
+/* Sidebar - Right */
+.sidebar {
+	float: left;
+	text-align: center;
+	width: 30%;
+	height: auto;
+	background-color: #1a3218;
+	color: #cfc76e;
+	min-height: 800px;
+}
+.fb-page {
+	width: 200;
+	height: 100;
+}
+/* End Sidebar*/
+
+/* Footer */
+.footer {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* End Footer */
